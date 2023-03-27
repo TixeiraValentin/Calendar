@@ -1,0 +1,183 @@
+.containerEventCalendar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.formEventCalendar{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.headerEventCalendar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #F3F4F6;
+}
+.mdDragHandle svg {
+    width: 24px;
+    height: 24px;
+    color: gray;
+}
+.mdClose{
+    cursor: pointer;
+}
+.mdClose svg {
+    width: 24px;
+    height: 24px;
+    color: gray;
+}
+.iconsEventCalendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconsEventCalendar svg{
+    width: 24px;
+    height: 24px;
+    color: gray;
+}
+.containerContentEventCalendar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+}
+.containerTitleEventCalendar{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.containerTitleEventCalendar input {
+    width: 76%;
+    border: none;
+    height: 30px;
+    font-size: 20px;
+    border-bottom: 2px solid #F3F4F6;
+    padding: 10px;
+    font-weight: 600;
+}
+.containerTitleEventCalendar input:active {
+    outline: none;
+}
+.containerTitleEventCalendar input:focus {
+    outline: none;
+    border-bottom: 2px solid #338fff;
+}
+.containerFechaEventCalendar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.fechaEventCalendar{
+    display: flex;
+}
+.fechaEventCalendar p {
+    font-size: 20px;
+}
+.containerAddDescriptionEventCalendar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.addDescriptionEventCalendar{
+    display: flex;
+    width: 80%;
+}
+.addDescriptionEventCalendar input:active {
+    outline: none;
+}
+.addDescriptionEventCalendar input:focus{
+    outline: none;
+    border-bottom: 2px solid #338fff;
+}    
+.addDescriptionEventCalendar input{
+    width: 80%;
+    border: none;
+    height: 30px;
+    font-size: 18px;
+    border-bottom: 2px solid #F3F4F6;
+    padding: 10px;
+}
+.mdSegment{
+    width: 20%;
+}
+.containerColorsOfEventsCalendar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px 0;
+}
+.MdOutlineBookmarkBorder{
+    width: 20%;
+}
+.containerCheckColors{
+    display: flex;
+    width: 80%;
+    column-gap: 10px;
+}
+.checkCircleEventCalendar svg{
+    width: 15px;
+    height: 15px;
+}
+.bg {
+    color: #fff;
+    border-radius: 20px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.indigo{
+    background-color: #6366f1;
+}
+.gray{
+    background-color: #6b7280;
+}
+.green{
+    background-color: #10b981;
+}
+.blue{
+    background-color: #3b82f6;
+}
+.red{
+    background-color: #Ef4444;
+}
+.purple{
+    background-color: #8B5CF6;
+}
+
+.containerFooterEventCalendar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-top: 1px solid #F3F4F6;
+
+}
+.containerGuardarEventCalendar input {
+    color: #fff;
+    background-color: #3b82f6;
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.containerGuardarEventCalendar input:hover{
+    background-color: #2563EB;
+}
+.errorEventCalendar{
+    color: red;
+}

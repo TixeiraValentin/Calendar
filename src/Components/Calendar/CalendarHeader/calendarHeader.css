@@ -1,0 +1,37 @@
+.containerCalendarHeader{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+.containerImgCalendarHeader{
+    display: flex;
+}
+.containerImgCalendarHeader img {
+    width: 50px;
+}
+.containerButtonsCalendarHeader{
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+}
+.buttonCalendarHeader{
+    background: none;
+    height: 20px;
+    border: 1px solid gray;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.containerButtonsLeftRightCalendarHeader{
+    display: flex;
+    column-gap: 20px;
+}
+.borderNone {
+    border: none;
+}
+.yearCalendarHeader{
+    color: gray;
+}

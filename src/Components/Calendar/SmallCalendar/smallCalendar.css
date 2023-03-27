@@ -1,0 +1,44 @@
+.containerHeaderSmallCalendar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerButtonsSmallCalendar{
+    display: flex;
+    width: 50%;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    margin-right: 20px;
+}
+
+.day-name {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+.background-color-selected {
+    background-color: #338FFF;
+    border-radius: 30px;
+    color: #fff;
+}
+.day-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}

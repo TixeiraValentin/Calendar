@@ -1,0 +1,31 @@
+.containerDay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    height: 150px;
+    cursor: pointer;
+}
+.headerDay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dayNumber  {
+    margin: 0;
+    height: 30px;
+}
+.dayLetter{
+    margin: 0;
+}
+.presentDay {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #2563EB;
+    color: #fff;
+    margin: 0;
+}

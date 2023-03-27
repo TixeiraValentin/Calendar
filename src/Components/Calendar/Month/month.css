@@ -1,0 +1,10 @@
+.containerMonth{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.containerDayDesdeMonth{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
