@@ -5,7 +5,8 @@ dayjs.locale("es");
 
 const initialState = {
     daySelected: dayjs()
-  }
+}
+
   export default function reducerSetDaySelected(state = initialState, action){
     switch (action.type) {
       case actionTypes.SET_DAY_SELECTED:
